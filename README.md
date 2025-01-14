@@ -27,12 +27,12 @@ This tool analyzes your source code in real-time for common vulnerabilities and 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-secure-coding-analyzer.git
+   git clone https://github.com/your-username/AI-Powered-Secure-Coding-Practices-Analyzer.git
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ai-secure-coding-analyzer
+   cd AI-Powered-Secure-Coding-Practices-Analyzer.git
 
 3. Install the required Python dependencies:
 
