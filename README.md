@@ -5,7 +5,7 @@
 
 ## Overview 📜
 
-![Phishing Detection](https://img.shields.io/badge/Phishing%20Detection-Active-brightgreen)
+[![Phishing Detection](https://img.shields.io/badge/Phishing%20Detection-Active-brightgreen)](https://ai-powered-secure-coding-practices-analyzer-d9gda3rgrdxfnsijkd.streamlit.app/)
 
 This tool analyzes your source code in real-time for common vulnerabilities and enforces secure coding practices. It provides security analysis for popular programming languages such as **Python**, **JavaScript**, and **C/C++**. It identifies common vulnerabilities like **SQL Injection**, **XSS**, **Command Injection**, and **Insecure API Usage**, offering recommendations and remediation steps to ensure secure code.
 
