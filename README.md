@@ -32,7 +32,7 @@ This tool analyzes your source code in real-time for common vulnerabilities and 
 2. Navigate to the project directory:
 
    ```bash
-   cd AI-Powered-Secure-Coding-Practices-Analyzer.git
+   cd AI-Powered-Secure-Coding-Practices-Analyzer
 
 3. Install the required Python dependencies:
 
