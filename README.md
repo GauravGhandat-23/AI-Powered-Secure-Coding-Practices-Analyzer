@@ -1,13 +1,13 @@
-<h1 align="center"> 🛡️ AI-Powered Secure Coding Practices Analyzer 🛡️ </h1>
+<h1 align="center"> 🛡️ 🔍 AI-Powered Secure Coding Practices Analyzer 🔍 🛡️ </h1>
 
 ![image](https://github.com/user-attachments/assets/c1c2521d-1743-488c-9ff0-741d392d19ca)
 
 
 ## Overview 📜
 
-[![Phishing Detection](https://img.shields.io/badge/Phishing%20Detection-Active-brightgreen)](https://ai-powered-secure-coding-practices-analyzer-d9gda3rgrdxfnsijkd.streamlit.app/)
+[![AI-Powered Secure Coding Practices Analyzer](https://img.shields.io/badge/AI--Powered%20Secure%20Coding%20Practices%20Analyzer-Active-blue)](https://ai-powered-secure-coding-practices-analyzer-d9gda3rgrdxfnsijkd.streamlit.app/)
 
-This tool analyzes your source code in real-time for common vulnerabilities and enforces secure coding practices. It provides security analysis for popular programming languages such as **Python**, **JavaScript**, and **C/C++**. It identifies common vulnerabilities like **SQL Injection**, **XSS**, **Command Injection**, and **Insecure API Usage**, offering recommendations and remediation steps to ensure secure code.
+This tool analyzes your source code in real-time for common vulnerabilities and enforces secure coding practices. It provides security analysis for popular programming languages such as **Python**, **JavaScript**, and **C/C++**. It identifies common vulnerabilities like **SQL Injection**, **XSS**, **Command Injection**, and **Insecure API Usage**, offering recommendations and remediation steps to ensure secure code.Powered by Groq AI, this tool enhances secure coding practices by detecting vulnerabilities and offering AI-generated security insights.
 
 ### Features ⚡
 
@@ -15,39 +15,64 @@ This tool analyzes your source code in real-time for common vulnerabilities and 
 - **Real-Time Vulnerability Detection** ⏱️
 - **Severity Ratings** ⚠️
 - **Remediation Suggestions** 🔧
+- **AI-Powered Security Insights** 🤖
 
 ### Supported Languages 🌐
 
-- Python 🐍
-- JavaScript 🌍
-- C/C++ 💻
+- **Python** 🐍
+- **JavaScript** 🌍
+- **C/C++** 💻
+
+### 🤖 AI-Powered Insights
+
+- The application utilizes Groq AI to provide additional insights into code security. The AI reviews the code and suggests improvements, ensuring best security practices are followed.
+
+### 🔧 Technologies Used
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![AI](https://img.shields.io/badge/AI-000000?style=for-the-badge&logo=ai&logoColor=white)
+![Regex](https://img.shields.io/badge/Regex-0099FF?style=for-the-badge&logo=regex&logoColor=white)
+
 
 ## Installation 🚀
 
-1. Clone this repository:
+1. Clone the Repository :
+   
+    ```bash
+    git clone https://github.com/yourusername/AI-Powered-Secure-Coding-Practices-Analyzer.git
+    cd AI-Powered-Secure-Coding-Practices-Analyzer
+
+2. Set Up a Virtual Environment : 🔧
+Create and activate a virtual environment
+    
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On macOS/Linux
+    venv\Scripts\activate    # On Windows
+    
+3. Replace Groq api key in the client = **Groq(api_key="Groq api key")** line with your actual Groq API key. You can get your API key by signing up on Groq's platform.
 
    ```bash
-   git clone https://github.com/your-username/AI-Powered-Secure-Coding-Practices-Analyzer.git
+   API_KEY = "your_api_key_here"
+   client = Groq(api_key=API_KEY)
+   
+5. Install Dependencies : 📦
+Install the required libraries
 
-2. Navigate to the project directory:
+    ```bash
+    pip install -r requirements.txt
 
-   ```bash
-   cd AI-Powered-Secure-Coding-Practices-Analyzer
+4. Run the Application : 🚀
+Once the dependencies are installed, run the Streamlit app
 
-3. Install the required Python dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-
-4. Run the Streamlit app:
-
-   ```bash
-   streamlit run secure_coding_analyzer.py
-
-5. Open your browser and go to http://localhost:8501 to start using the tool.
+    ```bash
+    streamlit run app.py
+    
+The app will start running on http://localhost:8501/.
 
 
-## Usage 🧑‍💻
+## 📊 Usage 🧑‍💻
 
 1. **Select a Programming Language** 🌟
    - Choose between Python, JavaScript, or C/C++ from the dropdown menu on the sidebar.
@@ -62,36 +87,38 @@ This tool analyzes your source code in real-time for common vulnerabilities and 
   - Severity (Low, Medium, High)
   - Examples of the detected issue
   - Suggested Remediation
+4. Get AI-powered insights to improve security practices.
 
-## Example Vulnerabilities ⚠️
+## 🛡️ Security Vulnerabilities Detected
 
-# Python SQL Injection (High Severity)
+## 🔴 Python
+- **SQL Injection**
+- **Insecure API Calls**
+- **Command Injection**
 
-![Python SQL Injection (High Severity)_page-0001](https://github.com/user-attachments/assets/facbdf98-7a98-43a6-8f4a-6ff8c459020a)
+![python test_page-0001](https://github.com/user-attachments/assets/92e89f03-5a16-4c81-9a47-6eabc4777008)
 
-# Python Insecure API Usage (Medium Severity) 
+![python test 1_page-0001](https://github.com/user-attachments/assets/99b7bcdb-ed7f-4ff3-b065-8a056cd21379)
 
-![Python Insecure API Usage (Medium Severity)_page-0001](https://github.com/user-attachments/assets/05e36220-92f6-4ca8-96eb-df57ea6a2853)
 
-# JavaScript XSS (High Severity)
+## 🟠 JavaScript
+- **Cross-Site Scripting (XSS)**
+- **Insecure API Calls**
+- **Eval Injection**
 
-![JavaScript XSS (High Severity)_page-0001](https://github.com/user-attachments/assets/777e4155-689f-4117-b5e2-1a098e3cfae4)
+![javascript test_page-0001](https://github.com/user-attachments/assets/7f63bbcc-c5e3-486e-843d-2f95c177ba5e)
 
-# JavaScripts Eval Injection (High Severity)
+![javascript test 1_page-0001](https://github.com/user-attachments/assets/b02fb2ef-65b7-4723-adf7-822ce063480b)
 
-![JavaScripts Eval Injection (High Severity)_page-0001](https://github.com/user-attachments/assets/e6cd0293-a071-4a87-a593-701e7adc4691)
 
-# JavaScript Insecure API Usage (Medium Severity)
+## 🔵 C/C++
+- **Command Injection**
+- **Buffer Overflow**
 
-![JavaScript Insecure API Usage (Medium Severity)_page-0001](https://github.com/user-attachments/assets/ce95317c-81b4-4c32-82d5-dae69a2151cb)
+![C C++ test_page-0001](https://github.com/user-attachments/assets/09b5ff63-e8ea-4030-a117-1f9dbfd85f9f)
 
-# CC++ Command Injection (High Severity)
+![C C++ test 1_page-0001](https://github.com/user-attachments/assets/35978603-b642-45dd-b92c-c8531187e46b)
 
-![CC++ Command Injection (High Severity)_page-0001](https://github.com/user-attachments/assets/b22861bd-8758-4db6-9ed6-63c0062d0671)
-
-# C C++ Buffer Overflow (High Severity)
-
-![C C++ Buffer Overflow (High Severity)_page-0001](https://github.com/user-attachments/assets/96a89bdf-7c0c-4595-8968-78add7245d4c)
 
 ## Contributing 🤝
 
