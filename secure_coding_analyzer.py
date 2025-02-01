@@ -18,7 +18,7 @@ Supported Languages: Python, JavaScript, C/C++.
 """)
 
 # Set your Groq API key
-API_KEY = "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"
+API_KEY = "your_api_key_here"
 client = Groq(api_key=API_KEY)
 
 # Language-specific vulnerability patterns and severity
